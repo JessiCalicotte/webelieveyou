@@ -1,16 +1,22 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Satisfy&display=swap');
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Indie Flower', cursive;
+  background: image_url('skulls.png');
+  color: #E3E85A;
   margin:0;
   padding:0;
 }
-  html, body {
+ html, body {
       height: 100%;
       margin: 0;
       padding: 0;
     }
 
 .body {
-  background: #B2DFDB;
-  font-family: 'Barriecito', cursive;
+  background: image_url('skulls.png');
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #E3E85A;
 }
