@@ -1,0 +1,16 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+}
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+.body {
+  background: #B2DFDB;
+  font-family: 'Barriecito', cursive;
+}
