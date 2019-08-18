@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Webelieveyou</title>
+    <title>We believe you</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+    <div class="col-5 links">
+    <%= link_to 'Contribute', new_story_path %>
+</div>
   <body>
+
     <%= yield %>
   </body>
 </html>
