@@ -6,7 +6,7 @@ def new
   @story = Story.new
 end
 def create
-    Story.create(story_params)
+    Story.create(story_path)
     redirect_to root_path
   end
 
