@@ -6,13 +6,13 @@ def new
   @story = Story.new
 end
 def create
-    Story.create(story_path)
+    Story.create(story_params)
     redirect_to root_path
   end
 
   private
 
-  def quote_params
+  def story_params
     params.require(:story).permit(:stories, :survivor)
   end
 end
